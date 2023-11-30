@@ -1,0 +1,27 @@
+salary:
+  player-not-found: "&cPlayer not found: &8{player}"
+  no-player-or-group: "&cNo player of group by the name &8{player}&c found!"
+  provide-salary: "&cYou need to proivde a numerical salary!"
+  got: "&5You got a salary of &8{amount}"
+  list-start: "&5Salaries on page &8{page}"
+  list-player-item: "&8{player}&5 has a salary of &7{salary}"
+  list-group-item: "&6{group}&5 has a salary of &7{salary}"
+  list-none-found: "&cNo entries found on this page"
+  total-salaries-log: "&6A total of &7{total}&6 was paid to &7{nr}&6 players"
+  provide_period_length: "&cYou need to provide a lengh (in seconds) for the period!"
+  time-until-next: "&6You've got &5{time}&6 until your next payday."
+  set-offline-salary: "&6Set &7{amount}&6 as the &5offline&6 salary of &8{player}"
+  set-new-from: "&6Set new account to take money from: &7{player}"
+  taken-from: "&6A total of &7{total}&6 was taken from you (the bank)"
+  sumup-header: "&6Total payments for {day} {options}"
+  no-such-file: "&cNo such history file found: &7{file}"
+  group-daily-total: "&6The group &7{group}&6 got a total of &8{amount}"
+  player-daily-total: "&6The player &7{player}&6 got a total of &8{amount}"
+  nothing-to-show-daily: "&cThere were no entries for the day"
+time:
+  seconds: s
+  minutes: m
+  hours: h
+  days: d
+  months: mo
+  years: y

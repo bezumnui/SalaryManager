@@ -1,0 +1,25 @@
+###############################################################
+# German translation by Iluster - www.netmul.de
+
+salary:
+  player-not-found: "&cKein Spieler gefunden: &8{player}"
+  no-player-or-group: '&cKein Spieler oder Gruppe mit den Namen &8{player}&c gefunden!'
+  provide-salary: '&cEs müssen Zahlen eingegeben werden!'
+  got: '&8{amount}&5 erhalten.'
+  list-start: '&5Liste der Auszahlungen. Seite &8{page}'
+  list-player-item: '&8{player}&5 bekommt &7{salary} &5ausgezahlt'
+  list-group-item: '&6{group}&5 bekommt &7{salary} &5ausgezahlt'
+  list-none-found: '&cKeine Einträge für diese seite gefunden'
+  total-salaries-log: '&6Es wurden insgesammt &7{total}&6 an &7{nr}&6 Spieler ausgezahlt'
+  provide_period_length: '&cEs muss in Sekunden ein Zeitraum angegeben werden!'
+  time-until-next: '&6Es dauert noch &5{time}&6 bis zur nächsten Auszahlung.'
+  set-offline-salary: '&6Setze &7{amount}&6 als &5offline&6 Auszahlung für &8{player}'
+  set-new-from: "&6Setze neues Konto Geld nimmt von: &7{player}"
+  taken-from: "&6Ihnen (der Bank) wurden insgesamt &7{total}&6 abgenommen"
+time:
+  seconds: s
+  minutes: m
+  hours: S
+  days: T
+  months: M
+  years: J

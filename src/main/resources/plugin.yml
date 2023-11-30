@@ -1,0 +1,77 @@
+name: SalaryManager
+version: ${project.version}
+author: Ford
+main: me.ford.salarymanager.SalaryManager
+api-version: 1.13
+depend: [Vault]
+softdepend: [Vault, Essentials, PlaceholderAPI, TheNewEconomy]
+
+commands:
+  salary:
+   description: Set a salary to a player or group
+   usage: /<command> <group or player> <amount> [-g or -p or -o]
+   aliases: [setsalary, salaryset]
+   permission: salarymanager.set
+  salarypay:
+   description: Pay all online players
+   usage: /<command> [nr]
+   permission: salarymanager.pay
+  salarylist:
+   description: List salaries of groups or players
+   usage: /<command> <-g or -p> [page]
+   aliases: [listslary]
+   permission: salarymanager.list
+  salarysetperiod:
+   description: Set the period in seconds
+   usage: /<command> <period>
+   permission: salarymanager.setperiod
+  salarynext:
+   description: When is your next payday
+   usage: /<command>
+   aliases: [payday, nextsalary]
+   permission: salarymanager.next
+  salaryreload:
+   description: Reload the config
+   usage: /<command>
+   permission: salarymanager.reload
+  salaryfrom:
+   description: Setup an account where the money comes from
+   usage: /<command> <player or UUID or none or TNE> [tne account]
+   aliases: [salarybank]
+   permission: salarymanager.from
+  salarysumup:
+   description: Sum up salaries of a given day/pre day history
+   usage: /<command> <filename> [-p or -g]
+   permission: salarymanager.sumup
+   
+permissions:
+  salarymanager.set:
+   description: Allow seting of salaries
+   default: op
+  salarymanager.set.offline:
+   description: Allow seting of offline salaries
+   default: op
+  salarymanager.pay:
+   description: Allow paying of salaries
+   default: op
+  salarymanager.get:
+   description: Allow getting salaries
+   default: true
+  salarymanager.reload:
+   description: Allow reloading the config
+   default: op
+  salarymanager.list:
+   description: Allow listing the salaries
+   default: op
+  salarymanager.setperiod:
+   description: Allow setting of the period
+   default: op
+  salarymanager.notify:
+   description: Get notified of payments same (totals and nr of people getting paid)
+   default: op
+  salarymanager.from:
+   description: Allow changing the money source
+   default: op
+  salarymanager.sumup:
+   description: Allows summing up a specific day
+   default: true
