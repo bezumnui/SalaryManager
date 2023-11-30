@@ -47,7 +47,6 @@ public final class SalaryPaymentManager {
             if (allowNeg || amount > 0) {
                 OnSalaryEvent event = new OnSalaryEvent(onlinePlayer, amount);
                 Bukkit.getPluginManager().callEvent(event);
-                System.out.println("Salary");
                 if (!event.isCancelled()) {
                     payPlayer(onlinePlayer, event.getAmount());
                     if (plugin.getSettings().sendMessage()) {
