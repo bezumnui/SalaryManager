@@ -4,7 +4,7 @@
   <groupId>me.ford</groupId>
   <artifactId>salarymanager</artifactId>
   <name>SalaryManager</name>
-  <version>0.5.5</version>
+  <version>bm1.5.5</version>
   <description>A salary manager. Pay periodic salaries, manage by group or user.</description>
   <build>
     <sourceDirectory>src/main/java</sourceDirectory>

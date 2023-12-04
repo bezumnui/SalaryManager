@@ -1,6 +1,8 @@
 # bm1.5.5 - compatible with [FunctionalClans](https://github.com/OshiFugo/FunctionalClans/tree/experimental_bezumnui)
 ###  -> [original version](https://www.spigotmc.org/resources/salarymanager.60803/) <-
 
+# Click [here](https://github.com/bezumnui/SalaryManagerMod/releases) to download [plugin.jar](https://github.com/bezumnui/SalaryManagerMod/releases)
+
 Allows managing of salaries.
 Online players get paid their salaries every set amount of time (1200s=20m by default).
 If a player is in multiple groups (and/or has themselves a personal salary), they get the most profitable one of the selection (you can change this in the config to allowe them to get the sum).
