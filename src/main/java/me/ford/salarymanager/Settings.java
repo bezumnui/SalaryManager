@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Set;
 
 import org.bukkit.World;
+import org.bukkit.inventory.BrewerInventory;
 
 public class Settings {
     private long defaultPeriod = 0L;
@@ -13,6 +14,7 @@ public class Settings {
     private boolean getMostProfitable;
     private boolean getAll;
     private boolean sendMessage;
+    private  boolean propaganda;
     private boolean ignoreAFK;
     private boolean logPayments;
     private boolean logPaymentsToConsole;
@@ -40,6 +42,7 @@ public class Settings {
         getMostProfitable = plugin.getConfig().getBoolean("get-most-profitable");
         getAll = plugin.getConfig().getBoolean("get-all");
         sendMessage = plugin.getConfig().getBoolean("message-player");
+        propaganda = plugin.getConfig().getBoolean("propaganda");
         ignoreAFK = plugin.getConfig().getBoolean("ignore-afk");
         logPayments = plugin.getConfig().getBoolean("log-payments");
         logPaymentsToConsole = plugin.getConfig().getBoolean("log-payments-to-console");
@@ -146,6 +149,9 @@ public class Settings {
         return sendMessage;
     }
 
+    public boolean getPropaganda() {
+        return propaganda;
+    }
     public boolean getAll() {
         return getAll;
     }

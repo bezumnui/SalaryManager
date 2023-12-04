@@ -4,6 +4,7 @@ get-player-salary-when-possible: false
 get-all: false
 ignore-afk: true
 message-player: true
+propaganda: false
 log-payments: true
 log-payments-to-console: true
 notify-staff: true

@@ -177,7 +177,9 @@ public final class SalaryPaymentManager {
         SalaryHandler salaries = SalaryHandler.getInstance();
         BankAccount bank = salaries.getBank();
         bank.removeMoney(totalSum);
-
+        if (!plugin.getSettings().getPropaganda()) {
+            return;
+        }
         if (bank instanceof UserBank) {
             OfflinePlayer player = ((UserBank) bank).getPlayer();
             if (player.isOnline()) {
