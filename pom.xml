@@ -6,7 +6,7 @@
 
   <groupId>me.ford</groupId>
   <artifactId>salarymanager</artifactId>
-  <version>0.5.5</version>
+  <version>bm1.5.5</version>
   <name>SalaryManager</name>
   <description>A salary manager. Pay periodic salaries, manage by group or user.</description>
   <properties>
